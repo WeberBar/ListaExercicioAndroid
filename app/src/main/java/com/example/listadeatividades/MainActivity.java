@@ -45,4 +45,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void irExercicio5(View view){
+        intent = new Intent(MainActivity.this, ActivityExercicio5.class);
+        startActivity(intent);
+        finish();
+    }
 }
